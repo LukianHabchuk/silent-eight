@@ -1,6 +1,6 @@
-package com.homework.silenteight.controller;
+package com.homework.silenteight.rest.gender.controller;
 
-import com.homework.silenteight.entity.AlgorithmType;
+import com.homework.silenteight.rest.gender.entity.AlgorithmType;
 import com.homework.silenteight.entity.GenderType;
 
 import org.junit.jupiter.api.Test;
@@ -29,7 +29,7 @@ class GenderControllerTest {
     private GenderController controller;
 
     @Autowired
-    public void setup() {
+    void setup() {
         mockMvc = MockMvcBuilders.standaloneSetup(controller).build();
     }
 

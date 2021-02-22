@@ -1,4 +1,4 @@
-package com.homework.silenteight.service;
+package com.homework.silenteight.rest.gender.service;
 
 import java.util.List;
 

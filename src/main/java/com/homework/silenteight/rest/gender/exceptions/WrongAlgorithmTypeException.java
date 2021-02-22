@@ -1,4 +1,4 @@
-package com.homework.silenteight.exceptions;
+package com.homework.silenteight.rest.gender.exceptions;
 
 import java.lang.invoke.WrongMethodTypeException;
 

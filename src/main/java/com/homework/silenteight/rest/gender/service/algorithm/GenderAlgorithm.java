@@ -1,4 +1,4 @@
-package com.homework.silenteight.algorithm;
+package com.homework.silenteight.rest.gender.service.algorithm;
 
 import com.homework.silenteight.constants.Constants;
 import com.homework.silenteight.entity.GenderType;

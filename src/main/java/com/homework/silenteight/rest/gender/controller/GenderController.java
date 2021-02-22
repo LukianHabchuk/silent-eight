@@ -1,9 +1,9 @@
-package com.homework.silenteight.controller;
+package com.homework.silenteight.rest.gender.controller;
 
-import com.homework.silenteight.entity.AlgorithmType;
+import com.homework.silenteight.rest.gender.entity.AlgorithmType;
 import com.homework.silenteight.entity.GenderType;
-import com.homework.silenteight.exceptions.WrongAlgorithmTypeException;
-import com.homework.silenteight.service.GenderServiceImpl;
+import com.homework.silenteight.rest.gender.exceptions.WrongAlgorithmTypeException;
+import com.homework.silenteight.rest.gender.service.GenderServiceImpl;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

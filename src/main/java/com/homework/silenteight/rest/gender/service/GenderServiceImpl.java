@@ -1,6 +1,6 @@
-package com.homework.silenteight.service;
+package com.homework.silenteight.rest.gender.service;
 
-import com.homework.silenteight.algorithm.GenderAlgorithm;
+import com.homework.silenteight.rest.gender.service.algorithm.GenderAlgorithm;
 import com.homework.silenteight.entity.GenderType;
 import org.springframework.stereotype.Service;
 
