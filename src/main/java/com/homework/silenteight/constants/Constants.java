@@ -13,4 +13,9 @@ public class Constants {
     public static final String GENDER_CONTROLLER_REQUEST_MAPPING = "/api/gender";
     public static final String GENDER_CONTROLLER_GET_GENDER_MAPPING = "/name";
 
+    //token mapping
+    public static final String TOKEN_CONTROLLER_REQUEST_MAPPING = "/api/tokens";
+    public static final String TOKEN_CONTROLLER_GET_ALL_MAPPING = "/all";
+    public static final String TOKEN_CONTROLLER_GET_MALE_MAPPING = "/male";
+    public static final String TOKEN_CONTROLLER_GET_FEMALE_MAPPING = "/female";
 }
