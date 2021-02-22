@@ -1,4 +1,4 @@
-package com.homework.silenteight.rest.token.algorithm;
+package com.homework.silenteight.rest.token.service.algorithm;
 
 import com.homework.silenteight.constants.Constants;
 import com.homework.silenteight.entity.GenderType;

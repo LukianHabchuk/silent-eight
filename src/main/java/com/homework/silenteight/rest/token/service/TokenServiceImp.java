@@ -1,6 +1,6 @@
 package com.homework.silenteight.rest.token.service;
 
-import com.homework.silenteight.rest.token.algorithm.TokenAlgorithm;
+import com.homework.silenteight.rest.token.service.algorithm.TokenAlgorithm;
 import com.homework.silenteight.rest.token.entity.PersonToken;
 import org.springframework.stereotype.Service;
 

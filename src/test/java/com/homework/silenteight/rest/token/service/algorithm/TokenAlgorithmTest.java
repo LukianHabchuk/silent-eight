@@ -1,4 +1,4 @@
-package com.homework.silenteight.rest.token.algorithm;
+package com.homework.silenteight.rest.token.service.algorithm;
 
 import org.junit.jupiter.api.Test;
 
