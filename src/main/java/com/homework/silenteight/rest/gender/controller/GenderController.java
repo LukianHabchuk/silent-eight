@@ -4,6 +4,7 @@ import com.homework.silenteight.rest.gender.entity.AlgorithmType;
 import com.homework.silenteight.entity.GenderType;
 import com.homework.silenteight.rest.gender.exceptions.WrongAlgorithmTypeException;
 import com.homework.silenteight.rest.gender.service.GenderServiceImpl;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -20,6 +21,7 @@ public class GenderController {
 
     private GenderServiceImpl service = new GenderServiceImpl();
 
+    @ApiOperation(value = "Returns persons gender/s by given name and chosen algorithm")
     @GetMapping(GENDER_CONTROLLER_GET_GENDER_MAPPING)
     public String getGender(@RequestParam("name") String name, @RequestParam("algorithm") AlgorithmType type) {
         if (type != AlgorithmType.FIRST && type != AlgorithmType.ALL)
