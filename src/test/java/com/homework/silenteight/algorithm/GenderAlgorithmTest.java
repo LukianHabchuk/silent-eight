@@ -22,17 +22,17 @@ class GenderAlgorithmTest {
 
     @Test
     void shouldFindFemale() {
-        assertEquals(GenderType.FEMALE.name(), genderAlgorithm.search("abigail"));
+        assertEquals(GenderType.FEMALE.name(), genderAlgorithm.search("Abigail"));
     }
 
     @Test
     void shouldFindFemaleByFirstNameWord() {
-        assertEquals(GenderType.FEMALE.name(), genderAlgorithm.search("abigail SecondName"));
+        assertEquals(GenderType.FEMALE.name(), genderAlgorithm.search("Abigail SecondName"));
     }
 
     @Test
     void shouldThrowINCONCLUSIVEMessage() {
-        assertEquals(GenderType.INCONCLUSIVE.name(), genderAlgorithm.search("Simply not existed name"));
+        assertEquals(GenderType.INCONCLUSIVE.name(), genderAlgorithm.search("non-existent name"));
     }
 
     @Test
